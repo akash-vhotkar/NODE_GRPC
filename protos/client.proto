@@ -1,0 +1,10 @@
+syntax = "proto3";
+package  clientPackage;
+service Client {
+    rpc ClientCom(request) return (response){}
+}
+message request {
+}
+message response {
+    string fullname = akash;
+}
