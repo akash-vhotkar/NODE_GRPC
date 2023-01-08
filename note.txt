@@ -1,0 +1,42 @@
+https://docs.google.com/document/d/1SEwP5pGts56UEar4CGp3yRhlIBwwYllII1gPU_OiiBg/edit?usp=sharing
+
+Data Serialization
+https://devopedia.org/data-serialization
+https://www.wallarm.com/what/the-concept-of-grpc#:~:text=By%20different%20evaluations%2C%20gRPC%20offers,small%20and%20compact%20message%20payloads.
+
+
+Data serialization is the process of converting data objects present in complex data structures into a byte stream for storage, transfer and distribution purposes on physical devices.
+XML, JSON, BSON, YAML, MessagePack, and protobuf are some commonly used data serialization formats.
+
+
+Once the serialized data is transmitted from the source machine to the destination machine, the reverse process of creating objects from the byte sequence called deserialization is carried out. Reconstructed objects are clones of the original object.
+
+
+
+
+
+
+What is protocol buffers 
+https://developers.google.com/protocol-buffers/docs/overview#:~:text=Protocol%20buffers%20provide%20a%20language,it%20generates%20native%20language%20bindings.
+
+Protocol buffers provide a language-neutral, platform-neutral, extensible mechanism for serializing structured data in a forward-compatible and backward-compatible way. It’s like JSON, except it's smaller and faster, and it generates native language bindings.
+
+Protocol buffers provide a serialization format for packets of typed, structured data that are up to a few megabytes in size. The format is suitable for both ephemeral network traffic and long-term data storage.
+Protocol buffers can be extended with new information without invalidating existing data or requiring code to be updated.
+
+
+
+
+Remote Procedure Call
+RPC remote procedure call are the protocol which is use to do the inter service communication  between the services. 
+Remote Procedure Call is a software communication protocol that one program can use to request a service from a program located in another computer on a network without having to understand the network's details.
+RPC is used to call other processes on the remote systems like a local system.
+A procedure call is also sometimes known as a function call or a subroutine call.
+
+https://www.youtube.com/watch?v=eRndYq8iTio&t=1630s
+
+What is .proto file why it is used
+ 
+.proto file contains:
+The definition of the gRPC service.
+The messages sent between clients and servers.
